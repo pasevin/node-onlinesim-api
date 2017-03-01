@@ -1,7 +1,7 @@
 {
   "name": "node-onlinesim-api",
   "version": "0.2.0",
-  "description": "OnlineSim.ru Api promised warp.",
+  "description": "OnlineSim.ru Api promised wrapper.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
