@@ -1,0 +1,25 @@
+{
+  "name": "node-onlinesim-api",
+  "version": "0.2.0",
+  "description": "OnlineSim.ru Api promised warp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npdev453/node-onlinesim-api.git"
+  },
+  "keywords": [
+    "onlinesim"
+  ],
+  "author": "np",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npdev453/node-onlinesim-api/issues"
+  },
+  "homepage": "https://github.com/npdev453/node-onlinesim-api#readme",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
