@@ -1,6 +1,6 @@
 {
-  "name": "node-onlinesim-api",
-  "version": "0.2.0",
+  "name": "onlinesim-api",
+  "version": "0.2.1",
   "description": "OnlineSim.ru Api promised wrapper.",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,11 @@
   },
   "homepage": "https://github.com/npdev453/node-onlinesim-api#readme",
   "dependencies": {
+    "bluebird": "^3.5.1",
     "request": "^2.79.0"
-  }
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {}
 }
