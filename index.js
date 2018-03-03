@@ -5,11 +5,9 @@ module.exports = function (apiKey) {
     var url = "http://onlinesim.ru/api/";
     var getProm = function(metod, vars) {
             return new Promise(function(ok, error) {
-                console.log('req');
                 if (!vars) vars = {};
                 vars.apikey = apiKey;
                 request.get({ url: url + metod + '.php', qs: vars, json: true }, function(error, respone, json) {
-                    console.log('req');
                     if (error) error("[Error of connection to " + url + "]", e)
                     else { ok(json); }
                 })
