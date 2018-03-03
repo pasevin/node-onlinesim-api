@@ -36,7 +36,7 @@ module.exports = function (apiKey) {
         getService: () => {},
         getServiceNumber: () => {},
         getNumRepeat: () => {},
-        logAll: () => { logAll() }
+        logAll: () => { logAll() },
         alldata: () => {
             return alldata();
         }
