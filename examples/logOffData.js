@@ -3,7 +3,7 @@
 var onlinesim=requie('node-onlinesim-api')('**YOUR_API_KEY**');
 log();
 
-function log(){}
+function log() {
     spacer(1);
     console.log("Баланс:");
     onlinesim.getBalance().then(function(balance) {
@@ -41,7 +41,7 @@ function log(){}
             // TZ_OVER_OK    операция завершена
         })
 
-    }
+    };
 
 
 
