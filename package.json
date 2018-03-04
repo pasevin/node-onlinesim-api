@@ -1,5 +1,5 @@
 {
-  "name": "onlinesim-api",
+  "name": "node-onlinesim-api",
   "version": "0.2.1",
   "description": "OnlineSim.ru Api promised wrapper.",
   "main": "index.js",
