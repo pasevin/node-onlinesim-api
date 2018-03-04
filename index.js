@@ -1,12 +1,11 @@
-const Promise = require('bluebird');
-const request = Promise.promisifyAll(require('request'), { multiArgs: true });
+const rp = require('request-promise');
 
 module.exports = function(apiKey) {
 	const  url = 'http://onlinesim.ru/api/';
 	const getProm = (method, vars) => {
 		if (!vars) vars = {};
 		vars.apikey = apiKey;
-		return request.getAsync({
+		return rp.get({
 			url: url + method + '.php',
 			qs: vars,
 			json: true
